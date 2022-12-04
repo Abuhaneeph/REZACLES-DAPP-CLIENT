@@ -15,7 +15,7 @@ const Index = () => {
 <h3 style={{fontFamily:"Times New Roman, Times, serif",fontSize:"32px"}}>
         Rezacles Protocol
   </h3>
-    <p>Referral-based staking pool that has unique compensation plan that reward memebrs for onboarding new users into the community</p>                             
+    <p>Referral-based staking pool that has unique compensation plan that reward members for onboarding new users into the community</p>                             
 
    
       </div>

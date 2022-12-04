@@ -25,12 +25,16 @@ const Nav = () => {
       <h2 className='w3-left'style={{color:"#8A2BE2"}}>Rezacles</h2>
       <Button className='w3-right  w3-margin w3-border-color-purple' icon={<MenuOutlined className='w3-hover-border-purple'  style={{color:"#8A2BE2"}} />} type="circle" onClick={showDrawer}/>
       <Drawer headerStyle={{backgroundColor:"#fafafa"}}  bodyStyle={bg} placement="right" onClose={onClose} open={open}>
-        
-        <Button className='w3-large  w3-round w3-hover-text-purple w3-hover-border-purple' size='middle' onClick={() => router.push('/Dashboard')}>Launch App</Button>
+        <div className='w3-center'>
+        <Button type='primary' style={bg} onClick={() => router.push('/Dashboard')}>Launch App</Button>
+        </div>
+       
         <Divider style={{color:"purple"}}/>
        
       
-      
+       <div className='w3-bottom'>
+       <Divider orientation='center'>Rezacles</Divider>
+       </div>
         
       </Drawer>
     

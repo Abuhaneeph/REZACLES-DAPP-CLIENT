@@ -87,7 +87,7 @@ const Register = () => {
   
     <Divider orientation='center'><h3>Register with Referral ID</h3></Divider>
     <form  class="w3-container w3-margin">
-    <input className="w3-border-0 w3-card-4" type="number" value={ID} name={ID} onChange={(e)=>{setID(e.target.value)}}/><br></br>
+    <input className="w3-border-0 w3-card-4" width={"2px"} type="number" value={ID} name={ID} onChange={(e)=>{setID(e.target.value)}}/><br></br>
     <Button onClick={handleReferralReg} style={{background:"white",color:"purple"}} type="default" loading={isRefLoading ? true : false} className='w3-margin w3-text-purple '>{isRefLoading ? 'Registering...' : 'Register'}</Button>
     {isRefSuccess && 
     <Alert

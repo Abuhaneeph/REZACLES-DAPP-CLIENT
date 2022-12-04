@@ -2,8 +2,10 @@ import { Button } from 'antd'
 import React, { useContext } from 'react'
 import { ClientContext } from '../../context/ClientContext'
 import { ethers } from 'ethers'
+import { useAccount } from 'wagmi'
 const ContractBal = () => {
     const{rezaclesRead}=useContext(ClientContext)
+    const {isConnected}=useAccount()
     const getBal=async()=>{
  
   const rslt =await rezaclesRead();
@@ -13,7 +15,7 @@ const ContractBal = () => {
     }
   return (
     <div className='w3-left w3-margin'>
-        <Button type='primary' onClick={getBal}>Owner's Balance</Button>
+        <Button disabled={!isConnected}  type='primary' onClick={getBal}>Owner's Balance</Button>
     </div>
   )
 }
