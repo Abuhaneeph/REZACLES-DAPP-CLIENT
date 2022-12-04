@@ -5,7 +5,7 @@ import { Button, message, Steps,Divider } from 'antd';
 const steps = [
   {
     title: 'First',
-    content: 'Once a user stakes 0.05 MATIC into the staking pool, the user can ascend through all the different levels. This ascension is done by the user on a timely interval of 10 Minutes.'
+    content: 'Once a user stakes 0.01 MATIC into the staking pool, the user can ascend through all the different levels. This ascension is done by the user on a timely interval of 10 Minutes.'
 
   },
   {
