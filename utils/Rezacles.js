@@ -1,4 +1,4 @@
-const RezaclesAddress="0x0219fc09593D132514a53d9220bd9925395F5dd6";
+const RezaclesAddress="0xa86FaB01D75fb0bD18181B564d4F8c0be6753297";
 const shortenAddress = (address) => `${address.slice(0, 5)}...${address.slice(address.length - 4)}`;
 export default RezaclesAddress;
 export {shortenAddress};
