@@ -21,7 +21,7 @@ const Family = [
     },
     {
      title:'Fifth',
-     content:'In your Journey to visit them, you have a gift for each of them and this gift is 0.001 MATIC for each of them. The 0.001 MATIC seems small '
+     content:'In your Journey to visit them, you have a gift for each of them and this gift is 0.002 MATIC for each of them. The 0.002 MATIC seems small '
   
     },
    {

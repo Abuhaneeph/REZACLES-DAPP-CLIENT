@@ -19,7 +19,7 @@ const steps = [
   },
   {
     title: 'Fourth',
-    content: "Rezacles referral system has 5 levels. On every level of ascension, there is a 0.01 MATIC fee involved, which is designed to compensate a user's upline generations .",
+    content: "Rezacles referral system has 5 levels. On every level of ascension, there is a 0.002 MATIC fee involved, which is designed to compensate a user's upline generations .",
   },
   {
    title:'Fifth',
